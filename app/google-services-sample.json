@@ -1,0 +1,21 @@
+{
+  "project_info": {
+    "project_number": "123456789",
+    "project_id": "your-firebase-project-id"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123456789:android:abcdef",
+        "android_client_info": {
+          "package_name": "es.uc3m.android.chillmates"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "YOUR_FIREBASE_API_KEY"
+        }
+      ]
+    }
+  ]
+}

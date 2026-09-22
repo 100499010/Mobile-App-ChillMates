@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_cancel">Cancela</string>
+    <string name="btn_confirm">Confirma</string>
+    <string name="btn_save">Desa</string>
+    <string name="btn_add">Afegeix</string>
+    <string name="btn_close">Tanca</string>
+    <string name="toast_cancelled">Cancellat</string>
+    <string name="toast_invalid_data">Dades no valides</string>
+
+    <string name="login_route">login</string>
+    <string name="login_welcome_title">Benvingut al teu pis compartit</string>
+    <string name="login_label_email">Correu electronic</string>
+    <string name="login_label_password">Contrasenya</string>
+    <string name="login_btn_signin">Inicia sessio</string>
+    <string name="login_footer_signup">No tens compte? Registrat</string>
+    <string name="signup_welcome_title">Crea el teu compte</string>
+    <string name="login_label_name">Nom</string>
+    <string name="login_label_confirm_password">Confirmar contrasenya</string>
+    <string name="signup_btn_signup">Registrat</string>
+    <string name="signup_footer_login">Ja tens compte? Inicia sessio</string>
+    <string name="nav_cd_profile">Perfil dusuari</string>
+    <string name="nav_cd_settings">Configuracio</string>
+    <string name="nav_home">Inici</string>
+    <string name="nav_chores">Tasques</string>
+    <string name="nav_shop">Compra</string>
+    <string name="nav_expenses">Despeses</string>
+    <string name="nav_repairs">Avaries</string>
+
+    <string name="welcome_back_continue">Continuar</string>
+    <string name="welcome_back_change_account">Canviar compte</string>
+
+    <string name="home_section_news_board">Tauler danuncis</string>
+    <string name="home_section_upcoming_events">Propers esdeveniments  →</string>
+    <string name="home_show_less">Mostra menys</string>
+    <string name="home_show_all">Mostra-ho tot</string>
+    <string name="home_accept_label">Compteu amb mi!</string>
+    <string name="home_reject_label">Ocupat/da, ho sento :(</string>
+    <string name="home_btn_add_event">Afegeix esdeveniment</string>
+    <string name="home_view_details">Veure mes detalls</string>
+    <string name="home_hide_details">Amaga detalls</string>
+    <string name="home_location_prefix">Ubicacio: %1$s</string>
+    <string name="home_remind_me">Recordamho</string>
+    <string name="home_stop_notifying">Deixa de notificar</string>
+    <string name="home_no_calendar_app">No sha trobat cap app de Calendari</string>
+    <string name="home_reminder_title">Recordatori de ChillMates</string>
+    <string name="notif_channel_reminders_name">Recordatoris de ChillMates</string>
+    <string name="home_cd_calendar">Afegeix al calendari</string>
+    <string name="home_cd_more">Mes opcions</string>
+
+    <string name="add_event_title">Afegeix esdeveniment</string>
+    <string name="add_event_header">Omple els detalls</string>
+    <string name="add_event_label_day">Dia (Dll/Dmt/Dmc/Dhj/Dve/Dsb/Dmg)</string>
+    <string name="add_event_label_time">Hora (HH:MM)</string>
+    <string name="add_event_label_description">Descripcio</string>
+    <string name="add_event_label_location">Ubicacio (opcional)</string>
+    <string name="add_event_btn_save">Desa</string>
+    <string name="add_event_cd_back">Torna</string>
+
+    <string name="shopping_list_title">Llista de la compra</string>
+    <string name="filter_label">Filtra per supermercat</string>
+    <string name="filter_all">Tots</string>
+    <string name="filter_multi_format">%1$s +%2$d mes</string>
+    <string name="select_supermarket">Selecciona supermercat</string>
+    <string name="map_no_supermarkets">No hi ha supermercats disponibles per a aquest pis</string>
+    <string name="btn_add_new_item">Afegeix article</string>
+    <string name="btn_select_all">Selecciona-ho tot</string>
+    <string name="btn_unselect_all">Deselecciona-ho tot</string>
+    <string name="btn_hide_bought">Amaga comprats recentment</string>
+    <string name="btn_see_bought">Veure comprats recentment</string>
+    <string name="dialog_add_item_title">Afegeix nou article</string>
+    <string name="label_product_name">Nom del producte</string>
+    <string name="label_quantity">Quantitat</string>
+    <string name="label_supermarkets">Supermercats</string>
+    <string name="label_any">Qualsevol</string>
+    <string name="label_for_who">Per a qui</string>
+    <string name="btn_add_new_supermarket">Afegeix nou supermercat</string>
+    <string name="dialog_add_supermarket_title">Afegeix supermercat</string>
+    <string name="label_supermarket_alias">Alies per mostrar a lapp</string>
+    <string name="label_search_place">Cerca supermercat oficial a Google Places</string>
+    <string name="btn_search_place">Cerca lloc</string>
+    <string name="btn_confirm_add_supermarket">Afegeix supermercat</string>
+    <string name="label_selected_place">Lloc seleccionat: %1$s</string>
+    <string name="error_supermarket_alias_exists">Aquest alies ja existeix</string>
+    <string name="error_no_places_found">No shan trobat llocs per a aquesta cerca</string>
+    <string name="error_places_search_failed">No shan pogut cercar llocs ara mateix</string>
+    <string name="error_place_details_failed">No shan pogut carregar els detalls del lloc</string>
+    <string name="error_place_missing_location">El lloc seleccionat no te ubicacio</string>
+    <string name="error_add_supermarket_failed">No sha pogut afegir el supermercat ara mateix</string>
+    <string name="needed_by_all">per a tots</string>
+    <string name="needed_by_format">per a %s</string>
+    <string name="dialog_add_expense_title">Afegir a despeses?</string>
+    <string name="dialog_add_expense_text">Vols crear una despesa per a %s?</string>
+    <string name="btn_create_expense">Si, crear despesa</string>
+    <string name="btn_not_now">Ara no</string>
+    <string name="cd_open_map">Obrir mapa</string>
+    <string name="label_selected">seleccionats</string>
+    <string name="btn_any">Qualsevol</string>
+    <string name="cd_toggle_bought">Marca com a comprat</string>
+    <string name="btn_my_expenses">Les meves despeses</string>
+    <string name="btn_all_expenses">Totes les despeses</string>
+
+    <string name="chores_title">Tasques</string>
+    <string name="chores_subtitle">Per facilitar la convivencia.</string>
+    <string name="btn_add_new_chore">Afegeix tasca</string>
+    <string name="btn_reconfigure_chores">Reconfigura tasques</string>
+    <string name="btn_redo">Torna a fer</string>
+    <string name="btn_swap">Intercanvia</string>
+    <string name="label_chore_title">Titol de la tasca</string>
+    <string name="label_assigned_to">Assignat a: %s</string>
+    <string name="default_chore_title">una tasca</string>
+    <string name="default_assignee">Algu</string>
+    <string name="dialog_add_chore_title">Afegeix nova tasca</string>
+    <string name="dialog_swap_chore_title">Intercanvia tasca</string>
+    <string name="dialog_swap_chore_text">Qui sencarregara de %s?</string>
+    <string name="toast_generating_notification">Generant notificacio...</string>
+    <string name="notif_channel_name">Recordatoris de tasques</string>
+    <string name="notif_channel_desc">Notificacions per recordar les tasques als companys</string>
+    <string name="notif_title_reminder">Recordatori: ChillMates</string>
+    <string name="notif_text_format">%1$s ha de: %2$s</string>
+    <string name="cd_add_chore">Afegeix tasca</string>
+    <string name="cd_reconfigure">Reconfigura</string>
+    <string name="cd_send_reminder">Envia recordatori</string>
+
+    <string name="expenses_title">Despeses</string>
+    <string name="ticket_add_label">afegeix tiquet</string>
+    <string name="ticket_see_label">veure tiquet</string>
+    <string name="title_add_expense">Afegeix despesa</string>
+    <string name="label_fill_details">Omple els detalls</string>
+    <string name="label_title">Titol</string>
+    <string name="label_amount_currency">Import (EUR)</string>
+    <string name="label_paid_by">Pagat per</string>
+    <string name="label_split_between">Divideix entre</string>
+    <string name="label_for_members">Per a: %s</string>
+    <string name="label_ticket">Tiquet</string>
+    <string name="btn_add_expense">Afegeix despesa</string>
+    <string name="toast_ticket_attached">Tiquet adjuntat</string>
+    <string name="toast_expense_added">Despesa afegida</string>
+    <string name="cd_add_expense">Afegeix despesa</string>
+    <string name="toast_no_app_found_open_file">No sha trobat cap aplicacio per obrir aquest fitxer</string>
+
+    <string name="repairs_title">Avaries</string>
+    <string name="repairs_section_current">Reparacions actuals</string>
+    <string name="repairs_section_new_request">Envia nova sol licitud</string>
+    <string name="repairs_placeholder_describe">Descriu el problema...</string>
+    <string name="repairs_btn_add_images">Afegeix imatges</string>
+    <string name="repairs_btn_retake_photo">Repeteix foto</string>
+    <string name="repairs_btn_ai_review">Revisio IA</string>
+    <string name="repairs_btn_send">Envia</string>
+    <string name="repairs_error_no_email">No hi ha cap app de correu per gestionar aquesta sol licitud.</string>
+    <string name="repairs_email_subject">Sol licitud de reparacio: Pis compartit</string>
+    <string name="repairs_email_body_prefix">Descripcio del problema:\n</string>
+    <string name="repairs_chooser_title">Envia correu...</string>
+
+    <string name="settings_title">Configuracio</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_appearance">Aparenca</string>
+    <string name="settings_label_notifications">Activa notificacions</string>
+    <string name="settings_label_sound">Efectes de so</string>
+    <string name="settings_label_dark_mode">Mode fosc</string>
+    <string name="settings_label_language">Idioma</string>
+    <string name="settings_btn_logout">TANCAR SESSIO</string>
+    <string name="settings_btn_apply">Aplicar canvis</string>
+    <string name="settings_cd_back">Torna</string>
+
+    <string name="user_section_profile">El meu perfil</string>
+    <string name="user_label_fullname">Nom complet</string>
+    <string name="user_label_email">Correu electronic</string>
+    <string name="user_btn_edit_info">Edita la meva informacio</string>
+    <string name="user_btn_save">Desa els canvis</string>
+    <string name="user_btn_password">Contrasenya</string>
+    <string name="user_section_flat">El meu pis</string>
+    <string name="user_label_flat_name">Nom del pis</string>
+    <string name="user_label_roommates">Companys</string>
+    <string name="user_btn_invite">Convida company</string>
+    <string name="user_btn_leave">Surt del pis</string>
+    <string name="user_btn_create_join">Crea/uneix-te a un pis</string>
+    <string name="user_invite_chooser_title">Convida company per...</string>
+    <string name="user_menu_change_photo">Canvia foto</string>
+    <string name="user_cd_back">Torna</string>
+    <string name="user_cd_profile_photo">Foto de perfil</string>
+    <string name="user_display_name_fallback">Usuari</string>
+    <string name="user_create_join_cta">Crear o unir-se a un pis</string>
+    <string name="user_logout_session">Tancar sessio</string>
+    <string name="user_change_photo">Canvia foto</string>
+    <string name="user_profile_title">El meu perfil</string>
+    <string name="user_full_name_label">Nom complet</string>
+    <string name="user_email_label">Correu electronic</string>
+    <string name="user_update_action">Actualitzar</string>
+    <string name="user_change_password">Canviar contrasenya</string>
+    <string name="user_current_flat_title">Pis actual</string>
+    <string name="user_flatmates_label">Companys</string>
+    <string name="user_leave_flat">Surt del pis</string>
+    <string name="user_update_password_title">Actualitzar contrasenya</string>
+    <string name="user_new_password">Nova contrasenya</string>
+    <string name="user_repeat_password">Repetir contrasenya</string>
+    <string name="user_create_flat_title">Crear pis</string>
+    <string name="user_join_flat_title">Unir-se a un pis</string>
+    <string name="user_create_label">Crear</string>
+    <string name="user_join_label">Unir-se</string>
+    <string name="user_flat_name_label">Nom del pis</string>
+    <string name="user_invite_code_label">Codi dinvitacio</string>
+    <string name="user_share_invite_message">Hola, pots unir-te al meu pis de ChillMates amb el seguent codi %1$s</string>
+    <string name="user_share_flat_action">Comparteix pis</string>
+
+    <string name="cd_back">Torna</string>
+    <string name="cd_delete">Elimina</string>
+    <string name="cd_close">Tanca</string>
+
+    <string name="chore_reminder_title">Programar recordatori</string>
+    <string name="chore_reminder_message">Quan vols que tho recordi?</string>
+    <string name="chore_reminder_in_10_min">En 10 minuts</string>
+    <string name="chore_reminder_in_30_min">En 30 minuts</string>
+    <string name="chore_reminder_in_1_hour">En 1 hora</string>
+    <string name="chore_reminder_in_3_hours">En 3 hores</string>
+
+    <string name="flat_setup_title">Configura el teu pis</string>
+    <string name="flat_setup_subtitle">Crea un nou pis o uneix-te a dun existent usant un codi dinvitacio</string>
+    <string name="flat_setup_create">Crear nou pis</string>
+    <string name="flat_setup_join">Unir-se a pis existent</string>
+    <string name="flat_setup_flat_name_label">Nom del pis</string>
+    <string name="flat_setup_flat_name_placeholder">p. ex., Casa de la platja, Pis del centre</string>
+    <string name="flat_setup_invite_code_label">Codi dinvitacio</string>
+    <string name="flat_setup_invite_code_placeholder">Introdueix el codi de 8 caractres</string>
+    <string name="flat_setup_select_option">Si us plau, selecciona una opcio a dalt</string>
+    <string name="flat_setup_continue">Continuar</string>
+    <string name="flat_setup_success">Pis creat!</string>
+    <string name="flat_setup_invite_code">Codi dinvitacio</string>
+    <string name="flat_setup_share_code">Comparteix aquest codi amb els teus companys perque puguin unir-se!</string>
+    <string name="login_button">Inicia sessio</string>
+    <string name="signup_button">registra</string>
+    <string name="home_notice_board">Tauler danuncis</string>
+    <string name="home_upcoming_events">Propers esdeveniments</string>
+    <string name="home_add_event">Afegeix esdeveniment</string>
+    <string name="home_toast_reminder_canceled">Recordatori cancellat</string>
+    <string name="home_toast_reminder_set">Recordatori establert!</string>
+    <string name="chore_status_completed">Completat</string>
+    <string name="chore_status_not_completed">No completat</string>
+    <string name="chore_status_no_record">Sense registre</string>
+    <string name="chore_tentative_next_week">Rotacio tentativa per a la proxima setmana</string>
+
+    <!-- MainActivity.kt -->
+    <string name="main_welcome_back">Benvingut</string>
+    <string name="main_welcome_fallback_name">amic</string>
+    <string name="main_welcome_to">a</string>
+    <string name="main_welcome_fallback_flat">el teu pis</string>
+    <string name="main_preparing_flat">Preparant el teu pis...</string>
+
+    <!-- AuthViewModel.kt -->
+    <string name="auth_error_fill_fields">Omple tots els camps</string>
+    <string name="auth_error_passwords_no_match">Les contrasenyes no coincideixen</string>
+    <string name="auth_error_password_too_short">La contrasenya ha de tenir almenys 6 caractres</string>
+    <string name="auth_error_user_not_loaded">No sha pogut carregar lusuari des de Firestore</string>
+    <string name="auth_error_flat_name_required">Introdueix un nom per al pis</string>
+    <string name="auth_error_invite_code_required">Introdueix un codi dinvitacio</string>
+    <string name="auth_error_select_option">Selecciona una opcio</string>
+
+    <!-- home/HomePage.kt -->
+    <string name="home_error_prefix">Error: </string>
+    <string name="home_notice_empty">Encara no hi ha anuncis.</string>
+    <string name="home_cd_previous">Anterior</string>
+    <string name="home_cd_next">Seguent</string>
+    <string name="home_add_notice">Afegeix anuncis</string>
+    <string name="home_poll_going">Hi van: </string>
+    <string name="home_poll_not_going_prefix">No hi van: </string>
+    <string name="home_poll_im_in">Mhi apunto!</string>
+    <string name="home_poll_not_going_btn">No hi vaig</string>
+    <string name="home_new_notice_title">Nou anuncis</string>
+    <string name="home_notice_title_label">Titol</string>
+    <string name="home_notice_details_label">Detalls</string>
+    <string name="home_notice_poll_label">Es una enquesta? (RSVP)</string>
+    <string name="home_events_empty">No hi ha esdeveniments programats.</string>
+    <string name="home_permission_denied">Es necesari permis per a les alarmes.</string>
+    <string name="home_cd_toggle_reminder">Alternar recordatori</string>
+    <string name="home_cd_expand_details">Expandir detalls</string>
+    <string name="home_export_calendar">Exportar al calendari</string>
+    <string name="home_notification_prefix">Proper esdeveniment: </string>
+
+    <!-- home/HomeViewModel.kt -->
+    <string name="home_fallback_user">Jo</string>
+
+    <!-- shoppinglist/ShoppingListPage.kt -->
+    <string name="shopping_places_unavailable">Google Places no esta disponible. Comprova MAPS_API_KEY i la configuracio de Play Services.</string>
+
+    <!-- shoppinglist/ShoppingListViewModel.kt -->
+    <string name="shopping_error_no_flat">No hi ha pis seleccionat</string>
+    <string name="shopping_error_add_supermarket">Error en afegir supermercat</string>
+
+    <!-- chores/ChoresPage.kt -->
+    <string name="chores_week_current">Setmana actual</string>
+    <string name="chores_week_next">Setmana seguent</string>
+    <string name="chores_week_last">Setmana passada</string>
+    <string name="chores_week_future">En %d setmanes</string>
+    <string name="chores_week_past">Fa %d setmanes</string>
+    <string name="chores_cd_delete">Eliminar tasca</string>
+    <string name="chores_cd_expand">Expandir</string>
+
+    <!-- repairs/RepairPage.kt -->
+    <string name="repairs_hide_form">Amagar formulari</string>
+    <string name="repairs_new_request">Nova sol licitud de reparacio</string>
+    <string name="repairs_title_placeholder">Titol de la reparacio...</string>
+    <string name="repairs_description_placeholder">Descriu el problema...</string>
+    <string name="repairs_add_more_images">Afegeix mes imatges (%d seleccionades)</string>
+    <string name="repairs_ai_thinking">Pensant...</string>
+    <string name="repairs_gmail_not_installed">Gmail no esta instal lat en aquest dispositiu</string>
+    <string name="repairs_confirm_dialog_title">Confirmar enviament de correu</string>
+    <string name="repairs_confirm_dialog_text">Has enviat finalment el correu des de Gmail?</string>
+    <string name="repairs_confirm_yes">Si, enviat</string>
+    <string name="repairs_confirm_no">No</string>
+    <string name="repairs_cd_remove_image">Eliminar imatge</string>
+
+    <!-- repairs/RepairViewModel.kt -->
+    <string name="repairs_default_title">Sol licitud de reparacio</string>
+
+    <!-- expensestracker/ExpensesTrackerPage.kt -->
+    <string name="expenses_your_balance">El teu balancc total</string>
+
+    <!-- expensestracker/AddExpenseScreen.kt -->
+    <string name="add_expense_amount_label">Import (EUR)</string>
+
+    <!-- user/UserPage.kt -->
+    <string name="user_flatmate_bullet">\u2022\u0020</string>
+
+    <!-- user/UserViewModel.kt -->
+    <string name="user_error_flat_name_required">Introdueix un nom per al pis</string>
+    <string name="user_success_flat_created">Pis creat correctament!</string>
+    <string name="user_error_invite_code_required">Introdueix un codi dinvitacio</string>
+    <string name="user_success_flat_joined">Tens unit al pis correctament!</string>
+    <string name="user_success_left_flat">Has sortit del pis</string>
+    <string name="user_success_name_updated">Nom actualitzat correctament</string>
+    <string name="user_success_password_updated">Contrasenya actualitzada correctament</string>
+
+    <!-- repository/FlatRepository.kt -->
+    <string name="repo_error_flat_not_found">Pis no trobat</string>
+    <string name="repo_error_parse">Error danalisi</string>
+    <string name="repo_error_already_member">Ja ets membre</string>
+    <string name="repo_unknown_user">Desconegut</string>
+    <string name="label_expense_title">Títol de la despesa</string>
+
+</resources>

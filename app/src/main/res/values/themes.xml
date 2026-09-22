@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ChillMates" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Custom style for the map activity to look like a pop-up with less padding -->
+    <!-- AI assisted Code -->
+    <style name="Theme.MapDialog" parent="@style/Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">95%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+    <!-- End of AI assisted code -->
+</resources>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">ChillMates</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_close">Close</string>
+    <string name="toast_cancelled">Cancelled</string>
+    <string name="toast_invalid_data">Invalid data</string>
+
+    <string name="login_route">login</string>
+    <string name="login_welcome_title">Welcome to your shared flat</string>
+    <string name="login_label_email">Email</string>
+    <string name="login_label_password">Password</string>
+    <string name="login_btn_signin">Log In</string>
+    <string name="login_footer_signup">Don\'t have an account? Sign up</string>
+    <string name="signup_welcome_title">Create your account</string>
+    <string name="login_label_name">Display Name</string>
+    <string name="login_label_confirm_password">Confirm Password</string>
+    <string name="signup_btn_signup">Sign Up</string>
+    <string name="signup_footer_login">Already have an account? Log in</string>
+    <string name="nav_cd_profile">User profile</string>
+    <string name="nav_cd_settings">Settings</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_chores">Chores</string>
+    <string name="nav_shop">Shop</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_repairs">Repairs</string>
+
+    <string name="welcome_back_continue">Continue</string>
+    <string name="welcome_back_change_account">Change account</string>
+
+    <string name="home_section_news_board">News Board</string>
+    <string name="home_section_upcoming_events">Upcoming Events  →</string>
+    <string name="home_show_less">Show less</string>
+    <string name="home_show_all">Show all</string>
+    <string name="home_accept_label">Count with me!</string>
+    <string name="home_reject_label">Busy, sorry :(</string>
+    <string name="home_btn_add_event">Add event</string>
+    <string name="home_view_details">View more details</string>
+    <string name="home_hide_details">Hide details</string>
+    <string name="home_location_prefix">Location: %1$s</string>
+    <string name="home_remind_me">Remind me</string>
+    <string name="home_stop_notifying">Stop notifying</string>
+    <string name="home_no_calendar_app">No Calendar app found</string>
+    <string name="home_reminder_title">ChillMates reminder</string>
+    <string name="notif_channel_reminders_name">ChillMates Reminders</string>
+    <string name="home_cd_calendar">Add to calendar</string>
+    <string name="home_cd_more">More options</string>
+
+    <string name="add_event_title">Add event</string>
+    <string name="add_event_header">Fill the details</string>
+    <string name="add_event_label_day">Day (Mon/Tue/Wed/Thu/Fri/Sat/Sun)</string>
+    <string name="add_event_label_time">Time (HH:MM)</string>
+    <string name="add_event_label_description">Description</string>
+    <string name="add_event_label_location">Location (optional)</string>
+    <string name="add_event_btn_save">Save</string>
+    <string name="add_event_cd_back">Back</string>
+
+    <string name="shopping_list_title">Shopping List</string>
+    <string name="filter_label">Filter by supermarket</string>
+    <string name="filter_all">All</string>
+    <string name="filter_multi_format">%1$s +%2$d more</string>
+    <string name="select_supermarket">Select Supermarket</string>
+    <string name="map_no_supermarkets">No supermarkets available for this flat</string>
+    <string name="btn_add_new_item">Add new item</string>
+    <string name="btn_select_all">Select All</string>
+    <string name="btn_unselect_all">Unselect All</string>
+    <string name="btn_hide_bought">Hide recently bought items</string>
+    <string name="btn_see_bought">See recently bought items</string>
+    <string name="dialog_add_item_title">Add New Item</string>
+    <string name="label_product_name">Product Name</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="label_supermarkets">Supermarkets</string>
+    <string name="label_any">Any</string>
+    <string name="label_for_who">For who</string>
+    <string name="btn_add_new_supermarket">Add new supermarket</string>
+    <string name="dialog_add_supermarket_title">Add supermarket</string>
+    <string name="label_supermarket_alias">Alias to show in the app</string>
+    <string name="label_search_place">Search official supermarket in Google Places</string>
+    <string name="btn_search_place">Search place</string>
+    <string name="btn_confirm_add_supermarket">Add supermarket</string>
+    <string name="label_selected_place">Selected place: %1$s</string>
+    <string name="error_supermarket_alias_exists">This alias already exists</string>
+    <string name="error_no_places_found">No places found for this search</string>
+    <string name="error_places_search_failed">Could not search places right now</string>
+    <string name="error_place_details_failed">Could not load place details</string>
+    <string name="error_place_missing_location">The selected place has no location data</string>
+    <string name="error_add_supermarket_failed">Could not add supermarket right now</string>
+    <string name="needed_by_all">for all</string>
+    <string name="needed_by_format">for %s</string>
+    <string name="dialog_add_expense_title">Add to Expenses?</string>
+    <string name="dialog_add_expense_text">Do you want to create an expense for \'%s\'?</string>
+    <string name="btn_create_expense">Yes, create expense</string>
+    <string name="btn_not_now">Not now</string>
+    <string name="cd_open_map">Open Map</string>
+    <string name="label_selected">selected</string>
+    <string name="btn_any">Any</string>
+    <string name="btn_my_expenses">My expenses</string>
+    <string name="btn_all_expenses">All expenses</string>
+    <string name="cd_toggle_bought">Toggle Bought</string>
+
+    <string name="chores_title">Chores</string>
+    <string name="chores_subtitle">To make living together easier.</string>
+    <string name="btn_add_new_chore">Add new chore</string>
+    <string name="btn_reconfigure_chores">Reconfigure Chores</string>
+    <string name="btn_redo">Redo</string>
+    <string name="btn_swap">Swap</string>
+    <string name="label_chore_title">Chore Title</string>
+    <string name="label_assigned_to">Assigned to: %s</string>
+    <string name="default_chore_title">a chore</string>
+    <string name="default_assignee">Someone</string>
+    <string name="dialog_add_chore_title">Add New Chore</string>
+    <string name="dialog_swap_chore_title">Swap Chore</string>
+    <string name="dialog_swap_chore_text">Who will take over \'%s\'?</string>
+    <string name="toast_generating_notification">🔔 Generating notification…</string>
+    <string name="notif_channel_name">Chores Reminders</string>
+    <string name="notif_channel_desc">Notifications to remind flatmates about their chores</string>
+    <string name="notif_title_reminder">Reminder: ChillMates</string>
+    <string name="notif_text_format">%1$s needs to: %2$s</string>
+    <string name="cd_add_chore">Add Chore</string>
+    <string name="cd_reconfigure">Reconfigure</string>
+    <string name="cd_send_reminder">Send Reminder</string>
+
+    <string name="expenses_title">Expenses</string>
+    <string name="ticket_add_label">add ticket</string>
+    <string name="ticket_see_label">see ticket</string>
+    <string name="title_add_expense">Add expense</string>
+    <string name="label_fill_details">Fill the details</string>
+    <string name="label_title">Title</string>
+    <string name="label_amount_currency">Amount (€)</string>
+    <string name="label_paid_by">Paid by</string>
+    <string name="label_split_between">Split between</string>
+    <string name="label_for_members">For: %s</string>
+    <string name="label_ticket">Ticket</string>
+    <string name="btn_add_expense">Add expense</string>
+    <string name="toast_ticket_attached">Ticket attached ✅</string>
+    <string name="toast_expense_added">Expense added ✅</string>
+    <string name="cd_add_expense">Add expense</string>
+    <string name="toast_no_app_found_open_file">No app found to open this file</string>
+
+    <string name="repairs_title">Repairs</string>
+    <string name="repairs_section_current">Current reparations</string>
+    <string name="repairs_section_new_request">Send a new request</string>
+    <string name="repairs_placeholder_describe">Describe the issue…</string>
+    <string name="repairs_btn_add_images">Add images</string>
+    <string name="repairs_btn_retake_photo">Retake photo</string>
+    <string name="repairs_btn_ai_review">AI Review</string>
+    <string name="repairs_btn_send">Send</string>
+    <string name="repairs_error_no_email">No email app installed to handle this request.</string>
+    <string name="repairs_email_subject">Repair Request: Shared Flat</string>
+    <string name="repairs_email_body_prefix">Issue description:\n</string>
+    <string name="repairs_chooser_title">Send email…</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_label_notifications">Enable notifications</string>
+    <string name="settings_label_sound">Sound effects</string>
+    <string name="settings_label_dark_mode">Dark mode</string>
+    <string name="settings_label_language">Language</string>
+    <string name="settings_btn_logout">LOGOUT</string>
+    <string name="settings_btn_apply">Apply Changes</string>
+    <string name="settings_cd_back">Back</string>
+
+    <string name="user_section_profile">My profile</string>
+    <string name="user_label_fullname">Full name</string>
+    <string name="user_label_email">Email</string>
+    <string name="user_btn_edit_info">Edit my info</string>
+    <string name="user_btn_save">Save changes</string>
+    <string name="user_btn_password">Password</string>
+    <string name="user_section_flat">My flat</string>
+    <string name="user_label_flat_name">Flat name</string>
+    <string name="user_label_roommates">Roommates</string>
+    <string name="user_btn_invite">Invite roommate</string>
+    <string name="user_btn_leave">Leave flat</string>
+    <string name="user_btn_create_join">Create/join a new flat</string>
+    <string name="user_invite_chooser_title">Invite roommate via …</string>
+    <string name="user_menu_change_photo">Change photo</string>
+    <string name="user_cd_back">Back</string>
+    <string name="user_cd_profile_photo">Profile photo</string>
+    <string name="user_display_name_fallback">User</string>
+    <string name="user_create_join_cta">Create or join a flat</string>
+    <string name="user_logout_session">Logout session</string>
+    <string name="user_change_photo">Change photo</string>
+    <string name="user_profile_title">My profile</string>
+    <string name="user_full_name_label">Full name</string>
+    <string name="user_email_label">Email address</string>
+    <string name="user_update_action">Update</string>
+    <string name="user_change_password">Change password</string>
+    <string name="user_current_flat_title">Current flat</string>
+    <string name="user_flatmates_label">Flatmates</string>
+    <string name="user_leave_flat">Leave flat</string>
+    <string name="user_update_password_title">Update password</string>
+    <string name="user_new_password">New password</string>
+    <string name="user_repeat_password">Repeat password</string>
+    <string name="user_create_flat_title">Create flat</string>
+    <string name="user_join_flat_title">Join flat</string>
+    <string name="user_create_label">Create</string>
+    <string name="user_join_label">Join</string>
+    <string name="user_flat_name_label">Flat name</string>
+    <string name="user_invite_code_label">Invite code</string>
+    <string name="user_share_invite_message">Hi, you can join my ChillMates flat with the following code %1$s</string>
+    <string name="user_share_flat_action">Share flat</string>
+
+    <string name="cd_back">Back</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_close">Close</string>
+
+    <string name="flat_setup_title">Set up your flat</string>
+    <string name="flat_setup_subtitle">Create a new flat or join an existing one using an invite code</string>
+    <string name="flat_setup_create">Create new flat</string>
+    <string name="flat_setup_join">Join existing flat</string>
+    <string name="flat_setup_flat_name_label">Flat name</string>
+    <string name="flat_setup_flat_name_placeholder">e.g., Beach House, Downtown Flat</string>
+    <string name="flat_setup_invite_code_label">Invite code</string>
+    <string name="flat_setup_invite_code_placeholder">Enter 8-character code</string>
+    <string name="flat_setup_select_option">Please select an option above</string>
+    <string name="flat_setup_continue">Continue</string>
+    <string name="flat_setup_success">Flat created!</string>
+    <string name="flat_setup_invite_code">Invite code</string>
+    <string name="flat_setup_share_code">Share this code with your flatmates so they can join!</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign up</string>
+    <string name="home_notice_board">Notice Board</string>
+    <string name="home_upcoming_events">Upcoming Events</string>
+    <string name="home_add_event">Add Event</string>
+    <string name="home_toast_reminder_canceled">Reminder canceled</string>
+    <string name="home_toast_reminder_set">Reminder set!</string>
+    <string name="chore_reminder_title">Set reminder</string>
+    <string name="chore_reminder_message">When do you want to be reminded?</string>
+    <string name="chore_reminder_in_10_min">In 10 minutes</string>
+    <string name="chore_reminder_in_30_min">In 30 minutes</string>
+    <string name="chore_reminder_in_1_hour">In 1 hour</string>
+    <string name="chore_reminder_in_3_hours">In 3 hours</string>
+    <string name="chore_status_completed">Completed</string>
+    <string name="chore_status_not_completed">Not completed</string>
+    <string name="chore_status_no_record">No record</string>
+    <string name="chore_tentative_next_week">Tentative next week rotation</string>
+
+    <!-- MainActivity.kt -->
+    <string name="main_welcome_back">Welcome</string>
+    <string name="main_welcome_fallback_name">mate</string>
+    <string name="main_welcome_to">to</string>
+    <string name="main_welcome_fallback_flat">your flat</string>
+    <string name="main_preparing_flat">Preparing your flat...</string>
+
+    <!-- AuthViewModel.kt -->
+    <string name="auth_error_fill_fields">Please fill in all fields</string>
+    <string name="auth_error_passwords_no_match">Passwords do not match</string>
+    <string name="auth_error_password_too_short">Password must be at least 6 characters</string>
+    <string name="auth_error_user_not_loaded">Current user could not be loaded from Firestore</string>
+    <string name="auth_error_flat_name_required">Please enter a flat name</string>
+    <string name="auth_error_invite_code_required">Please enter an invite code</string>
+    <string name="auth_error_select_option">Please select an option</string>
+
+    <!-- home/HomePage.kt -->
+    <string name="home_error_prefix">Error: </string>
+    <string name="home_notice_empty">No notices yet.</string>
+    <string name="home_cd_previous">Previous</string>
+    <string name="home_cd_next">Next</string>
+    <string name="home_add_notice">Add Notice</string>
+    <string name="home_poll_going">Going: </string>
+    <string name="home_poll_not_going_prefix">Not going: </string>
+    <string name="home_poll_im_in">I\'m in!</string>
+    <string name="home_poll_not_going_btn">Not going</string>
+    <string name="home_new_notice_title">New Notice</string>
+    <string name="home_notice_title_label">Title</string>
+    <string name="home_notice_details_label">Details</string>
+    <string name="home_notice_poll_label">Is this a poll? (RSVP)</string>
+    <string name="home_events_empty">No events scheduled.</string>
+    <string name="home_permission_denied">Permission required for alarms.</string>
+    <string name="home_cd_toggle_reminder">Toggle reminder</string>
+    <string name="home_cd_expand_details">Expand details</string>
+    <string name="home_export_calendar">Export to Calendar</string>
+    <string name="home_notification_prefix">Upcoming Event: </string>
+
+    <!-- home/HomeViewModel.kt -->
+    <string name="home_fallback_user">Me</string>
+
+    <!-- shoppinglist/ShoppingListPage.kt -->
+    <string name="shopping_places_unavailable">Google Places is unavailable. Check MAPS_API_KEY and Play Services setup.</string>
+
+    <!-- shoppinglist/ShoppingListViewModel.kt -->
+    <string name="shopping_error_no_flat">No flat selected</string>
+    <string name="shopping_error_add_supermarket">Failed to add supermarket</string>
+
+    <!-- chores/ChoresPage.kt -->
+    <string name="chores_week_current">Current Week</string>
+    <string name="chores_week_next">Next Week</string>
+    <string name="chores_week_last">Last Week</string>
+    <string name="chores_week_future">In %d weeks</string>
+    <string name="chores_week_past">%d weeks ago</string>
+    <string name="chores_cd_delete">Delete chore</string>
+    <string name="chores_cd_expand">Expand</string>
+
+    <!-- repairs/RepairPage.kt -->
+    <string name="repairs_hide_form">Hide request form</string>
+    <string name="repairs_new_request">New repair request</string>
+    <string name="repairs_title_placeholder">Repair title...</string>
+    <string name="repairs_description_placeholder">Describe the issue...</string>
+    <string name="repairs_add_more_images">Add more images (%d selected)</string>
+    <string name="repairs_ai_thinking">Thinking...</string>
+    <string name="repairs_gmail_not_installed">Gmail is not installed on this device</string>
+    <string name="repairs_confirm_dialog_title">Confirm email sending</string>
+    <string name="repairs_confirm_dialog_text">Did you finally send the email from Gmail?</string>
+    <string name="repairs_confirm_yes">Yes, sent</string>
+    <string name="repairs_confirm_no">No</string>
+    <string name="repairs_cd_remove_image">Remove image</string>
+
+    <!-- repairs/RepairViewModel.kt -->
+    <string name="repairs_default_title">Repair request</string>
+
+    <!-- expensestracker/ExpensesTrackerPage.kt -->
+    <string name="expenses_your_balance">Your Total Balance</string>
+
+    <!-- expensestracker/AddExpenseScreen.kt -->
+    <string name="add_expense_amount_label">Amount (€)</string>
+
+    <!-- user/UserPage.kt -->
+    <string name="user_flatmate_bullet">\u2022\u0020</string>
+
+    <!-- user/UserViewModel.kt -->
+    <string name="user_error_flat_name_required">Please enter a flat name</string>
+    <string name="user_success_flat_created">Flat created successfully!</string>
+    <string name="user_error_invite_code_required">Please enter an invite code</string>
+    <string name="user_success_flat_joined">Joined flat successfully!</string>
+    <string name="user_success_left_flat">You have left the flat</string>
+    <string name="user_success_name_updated">Name updated successfully</string>
+    <string name="user_success_password_updated">Password updated successfully</string>
+
+    <!-- repository/FlatRepository.kt -->
+    <string name="repo_error_flat_not_found">Flat not found</string>
+    <string name="repo_error_parse">Parse error</string>
+    <string name="repo_error_already_member">Already a member</string>
+    <string name="repo_unknown_user">Unknown</string>
+    <string name="label_expense_title">Expense Title</string>
+
+</resources>

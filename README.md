@@ -1,6 +1,6 @@
 # ChillMates
 
-An Android-based roommate management mobile application developed as a university project for an Mobile Applications course.
+Android-based roommate management mobile application developed as a university project for an Mobile Applications course.
 
 The app allows users to create an account, create or join a shared flat, manage shared shopping lists, track and split expenses, organize events, manage household chores, submit repair requests, and manage their flat and profile information. It also includes nearby supermarket selection and mapping integrated via the Google Maps API, reminders and notifications, and AI-assisted repair message generation using the Gemini API.
 

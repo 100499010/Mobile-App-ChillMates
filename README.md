@@ -1,13 +1,12 @@
 # ChillMates
 
-Android-based roommate management mobile application developed as a university project for an Mobile Applications course.
+An Android-based roommate management mobile application developed as a university project for an Android Applications course.
 
 The app allows users to create an account, create or join a shared flat, manage shared shopping lists, track and split expenses, organize events, manage household chores, submit repair requests, and manage their flat and profile information. It also includes nearby supermarket selection and mapping integrated via the Google Maps API, reminders and notifications, and AI-assisted repair message generation using the Gemini API.
 
 ## Features
 
 ### User Authentication
-
 - User registration, login and logout
 - Email and password authentication
 - Account profile creation with display name
@@ -15,7 +14,6 @@ The app allows users to create an account, create or join a shared flat, manage 
 - Persistent authentication state
 
 ### Flat Management
-
 - Create a new shared flat
 - Join an existing flat using an invite code
 - View flat information and roommates
@@ -24,7 +22,6 @@ The app allows users to create an account, create or join a shared flat, manage 
 - Create or join another flat from the user profile
 
 ### Home and Events
-
 - Home page with a shared notice board
 - Create notices for the flat
 - Create upcoming events with date, time, description and location
@@ -34,7 +31,6 @@ The app allows users to create an account, create or join a shared flat, manage 
 - Export events to the device calendar
 
 ### Shopping List
-
 - Shared shopping list for the flat
 - Add products with quantity and required date
 - Assign shopping items to selected flatmates
@@ -46,7 +42,6 @@ The app allows users to create an account, create or join a shared flat, manage 
 - Select supermarkets and display them on a map
 
 ### Expenses Tracker
-
 - Add shared expenses
 - Select who paid for each expense
 - Split expenses between selected flatmates
@@ -56,7 +51,6 @@ The app allows users to create an account, create or join a shared flat, manage 
 - View attached expense tickets
 
 ### Chores
-
 - Create and assign household chores
 - View chores by week
 - Mark chores as completed or not completed
@@ -68,7 +62,6 @@ The app allows users to create an account, create or join a shared flat, manage 
 - Receive chore notifications
 
 ### Repairs
-
 - Create repair requests for the flat
 - Add repair titles and descriptions
 - Attach multiple images to repair requests
@@ -78,7 +71,6 @@ The app allows users to create an account, create or join a shared flat, manage 
 - View submitted repair requests and attached images
 
 ### User Profile and Settings
-
 - View and edit user information
 - Change profile information and password
 - Change profile photo
@@ -86,6 +78,20 @@ The app allows users to create an account, create or join a shared flat, manage 
 - Manage flat membership and invitations
 - Toggle dark mode
 - Toggle application sounds
+
+### Automated Tests
+- Unit tests for ViewModels (ViewModelsUnitTest)
+- UI/Integration tests using Espresso (AddEventTest, AddExpenseTest, ChoresTest, ShoppingListTest)
+
+## Setup & Configuration
+
+To run this project locally, you will need to set up your own Firebase and API credentials:
+
+1. Clone this repository.
+2. Navigate to the `app/` directory.
+3. Locate the `google-services-sample.json` file and rename it to `google-services.json`.
+4. Open the newly renamed `google-services.json` file and replace the placeholder values with your actual Firebase project credentials.
+5. Ensure you also configure your Google Maps API and Gemini API keys in the project as required.
 
 ## Technologies Used
 
@@ -103,6 +109,9 @@ The app allows users to create an account, create or join a shared flat, manage 
 - Google Maps Services
 - Android DataStore
 - Google Generative AI
+- JUnit
+- Espresso
+- MockK
 - Gradle
 - Kotlin Coroutines
 
@@ -120,7 +129,7 @@ ChillMates/
 │
 ├── app/
 │   ├── build.gradle.kts
-│   ├── google-services.json
+│   ├── google-services-sample.json
 │   ├── proguard-rules.pro
 │   │
 │   └── src/
@@ -214,4 +223,3 @@ ChillMates/
 └── gradle/
     ├── libs.versions.toml
     └── wrapper/
-```
